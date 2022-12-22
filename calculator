@@ -1,0 +1,21 @@
+
+select = int(input("Виберіть дію 1-додавання, 2-віднімання, 3-множення, 4-ділення:"))
+
+number_1 = int(input("Введіть перше число: "))
+number_2 = int(input("Введіть друге число: "))
+
+
+if select == 1:
+    print(int(number_1) + int(number_2))
+
+elif select == 2:
+    print(int(number_1) - int(number_2))
+
+elif select == 3:
+    print(int(number_1) * int(number_2))
+
+elif select == 4:
+    print(int(number_1) / int(number_2))
+
+else:
+    print("Invalid input")
